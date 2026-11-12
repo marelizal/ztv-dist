@@ -1,0 +1,9 @@
+{
+  "version": "0.1.2",
+  "name": "z-tvsm",
+  "minWebos": "1.0.0",
+  "ipkUrl": "",
+  "sha256": "",
+  "changelog": "Sin publicar todavia. El workflow publish.yml escribe este archivo en cada release.",
+  "releaseDate": "2026-11-12"
+}

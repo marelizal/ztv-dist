@@ -1,0 +1,2 @@
+# El pool y los IPK los publica la CI; este repo solo guarda el estado final.
+*.tmp
