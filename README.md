@@ -7,7 +7,7 @@ TV descarga por HTTP.
 
 | Ruta | Para que la usa la TV |
 |---|---|
-| `seeds.json` (rama `seeds`) | Pool de semillas de sesion del portal. |
+| `seeds.json` (rama `seeds`) | Pool de semillas de sesion, cifrado. |
 | `version.json` (rama `main`) | Manifiesto de actualizacion OTA. |
 | `releases/` | Paquetes `.ipk` publicados para instalar. |
 
@@ -21,22 +21,28 @@ https://raw.githubusercontent.com/marelizal/ztv-dist/main/version.json
 Las dos van horneadas en el paquete webOS, en
 `platforms/webos/service/com.zafiro.tv.service/config.json`.
 
+## Pool de semillas cifrado
+
+El pool travels cifrado: son credenciales de sesion y no van en claro a un
+repo publico.
+
+- Formato: `{"v":1,"alg":"aes-256-gcm","data":"<base64>"}`.
+- La clave la tiene solo el service, horneada en el paquete webOS.
+- El service descifra el pool al descargarlo; si la clave no esta o el
+  contenido no descifra, se descarta el pool y se sigue con la sesion propia.
+
+Quien publica el pool cifrado es el repo privado del proyecto, con el
+workflow `seeds.yml`: acuña semillas, las cifra y las sube a la rama `seeds`.
+
 ## Quien publica
 
-El repo privado `marelizal/z-tvsm` genera y publica todo aca:
+El repo privado del proyecto genera y publica todo aca:
 
-- `seeds.json`: el workflow `seeds.yml` acuña semillas nuevas y las sube.
+- `seeds.json`: el workflow `seeds.yml` acuña, cifra y sube el pool.
 - `version.json` y los `.ipk`: el workflow `publish.yml` los sube al tag.
 
 Este repo no tiene secrets ni workflows: es solo el destino de las
 publicaciones.
-
-## Sobre las semillas
-
-Cada semilla es una sesion del portal (`userId`, `userToken`, `sn`) con vida
-corta. El pool se renueva cada pocas horas y las semillas viejas se descartan
-solas. Publicarlas es lo mismo que hace el proyecto XUPER: son credenciales de
-vida corta, no la llave del portal.
 
 ## version.json
 
