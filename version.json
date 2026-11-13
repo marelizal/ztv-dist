@@ -1,9 +1,9 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "name": "z-tvsm",
   "minWebos": "1.0.0",
-  "ipkUrl": "",
-  "sha256": "",
-  "changelog": "Sin publicar todavia. El workflow publish.yml escribe este archivo en cada release.",
-  "releaseDate": "2026-11-12"
+  "ipkUrl": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/com.zafiro.tv_0.1.3_all.ipk",
+  "sha256": "F47F946088E2864F5D828F9185C9359FEA460031695D2283E0A5298DEE2E6C12",
+  "changelog": "Publicacion automatica de 0.1.3.",
+  "releaseDate": "2026-11-13"
 }
