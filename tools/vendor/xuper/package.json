@@ -1,0 +1,7 @@
+{
+  "name": "@ztvsm/vendor-xuper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Runtime vendido de XUPER-HYDRA-PORT-WEBOS (MIT). Se marca como CommonJS porque el paquete padre declara type module y estos modulos se cargan con require()."
+}
