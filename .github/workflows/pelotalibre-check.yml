@@ -1,4 +1,4 @@
-name: la18hd links check
+name: sports (la18hd + tvlibre)
 
 on:
   schedule:
@@ -9,93 +9,89 @@ permissions:
   contents: write
 
 concurrency:
-  group: la18hd-links-check
+  group: sports-renew
   cancel-in-progress: false
 
 jobs:
-  check:
+  renew:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Verificar y renovar enlaces la18hd (TV/Deportes)
-        id: pelotalibre
-        shell: bash
-        run: |
-          set +e
-          python3 tools/renew_pelotalibre_links.py --check --json > pelotalibre-status.json
-          code=$?
-          cat pelotalibre-status.json 2>/dev/null || echo '{"ok":0,"total":0,"error":"sin salida JSON"}' > pelotalibre-status.json
-          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
-
-      - name: Publicar resultado
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: la18hd-status
-          path: pelotalibre-status.json
-
-      - name: Validar estado
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import json, sys
-          try:
-              d = json.load(open('pelotalibre-status.json', encoding='utf-8'))
-          except Exception as e:
-              print(f"Error leyendo resultado: {e}")
-              sys.exit(1)
-          ok = int(d.get('ok', 0))
-          total = int(d.get('total', 0))
-          print(f"la18hd: {ok}/{total} canales activos OK")
-          for ch in d.get('channels', []):
-              status = 'OK' if ch.get('ok') else 'FALLO'
-              country = ch.get('country') or ''
-              print(f"- [{status}] {ch.get('name')} ({ch.get('stream')}) [{country}]: {ch.get('error') or (ch.get('check') or {}).get('detail') or ch.get('url') or ''}")
-          sys.exit(0 if total > 0 and ok == total else 1)
-          PY
-
-  agenda:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Codigo
         uses: actions/checkout@v4
 
-      - name: Datos actuales (rama agenda)
-        uses: actions/checkout@v4
-        with:
-          ref: agenda
-          path: data
-        continue-on-error: true
-
-      - name: Preparar rama de datos
+      - name: Generar sports.json (verifica canales la18hd y obtiene agenda tvlibre)
+        id: build
         shell: bash
         run: |
-          if [ ! -d data/.git ]; then
-            mkdir -p data
-            cd data
+          set +e
+          python3 tools/build_sports.py --out sports.json --pretty
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          # El archivo se genera siempre; exit 2 indica canales la18hd deshabilitados por check.
+
+      - name: Publicar sports.json (archivo único)
+        if: always()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          WORKDIR="$(mktemp -d)"
+          if git clone --depth 1 --branch agenda "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$WORKDIR"; then
+            :
+          else
+            mkdir -p "$WORKDIR"
+            cd "$WORKDIR"
             git init
             git checkout --orphan agenda
-            git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           fi
-
-      - name: Obtener agenda de tvlibre.st
-        run: |
-          mkdir -p data
-          python3 tools/fetch_tvlibre_agenda.py --out data/tvlibre-agenda.json --pretty
-
-      - name: Publicar agenda
-        working-directory: data
-        shell: bash
-        run: |
-          git config user.name "ztvsm-agenda"
-          git config user.email "agenda@users.noreply.github.com"
-          git add tvlibre-agenda.json
+          cp sports.json "$WORKDIR/sports.json"
+          cd "$WORKDIR"
+          git rm -f tvlibre-agenda.json 2>/dev/null || true
+          git add sports.json
           if git diff --cached --quiet; then
-            echo "sin cambios en la agenda"
+            echo "sin cambios en sports.json"
             exit 0
           fi
-          git commit -m "agenda: tvlibre $(date -u +%Y-%m-%dT%H:%MZ)"
+          git config user.name "ztvsm-sports"
+          git config user.email "sports@users.noreply.github.com"
+          git commit -m "sports: renovar $(date -u +%Y-%m-%dT%H:%MZ)"
           git push origin HEAD:agenda
 
+      - name: Publicar artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sports
+          path: sports.json
+
+      - name: Resumen de estado
+        if: always()
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          d = json.load(open('sports.json', encoding='utf-8'))
+          la = d.get('la18', {})
+          tv = d.get('tvlibre', {})
+          print(f"la18: {la.get('ok')}/{la.get('total')} habilitados")
+          print(f"tvlibre: {tv.get('count')} eventos ({tv.get('date')})")
+          for country, channels in (la.get('countries') or {}).items():
+              for ch in channels:
+                  if not ch.get('enabled'):
+                      detail = (ch.get('check') or {}).get('detail') or ch.get('error') or ''
+                      print(f"- [INHABILITADO] {ch.get('name')} ({ch.get('stream')}) [{country}]: {detail}")
+          PY
+
+      - name: Validar estado la18hd
+        if: always()
+        shell: bash
+        run: |
+          if [ "${{ steps.build.outputs.exit_code }}" = "0" ]; then
+            echo "Todos los canales la18hd habilitados."
+            exit 0
+          fi
+          echo "Hay canales la18hd inhabilitados (ver resumen)."
+          exit 1
