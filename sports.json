@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T12:27:11.731712+00:00",
+  "generatedAt": "2026-11-21T20:00:47.655518+00:00",
   "timezone": "UTC",
   "sources": {
     "la18": "https://la18hd.su/status.json",
@@ -7,9 +7,9 @@
   },
   "la18": {
     "source": "https://la18hd.su/status.json",
-    "checkedAt": "2026-11-21T12:27:10.755596+00:00",
-    "ok": 31,
-    "total": 45,
+    "checkedAt": "2026-11-21T20:00:46.625673+00:00",
+    "ok": 46,
+    "total": 46,
     "countries": {
       "LATINOAMERICA": [
         {
@@ -17,7 +17,7 @@
           "name": "ESPN",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/espn/mono.m3u8?token=915b28185f16fa6c6ffb46c75fb8c29969f8fa70-b3-1795280879-1795262879",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/espn/mono.m3u8?token=9dffbc0eba87fe679ba8246d2941f912dbd8b931-30-1795308310-1795290310",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -27,21 +27,21 @@
         {
           "stream": "espn2",
           "name": "ESPN 2",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/espn2/mono.m3u8?token=9f1b7f5e8d2e42129aaf0696cb4e3b2b5015d56e-8c-1795280880-1795262880",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/espn2/mono.m3u8?token=cded828a02b762eab9b0571813e44dae444c7605-72-1795308311-1795290311",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "espn3",
           "name": "ESPN 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/espn3/mono.m3u8?token=1ac6d01a2aa314ba1268fde93a9babc6cbe142f2-69-1795280896-1795262896",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/espn3/mono.m3u8?token=bdaf697390411bc1bb5dcc8e7b6380ac3bf0103b-3c-1795308312-1795290312",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -53,7 +53,7 @@
           "name": "ESPN 4",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/espn4/mono.m3u8?token=797b01cca3511aa233864ed321d49b1a6f3a9cc4-c-1795280897-1795262897",
+          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/espn4/mono.m3u8?token=8d0a05fae42d23e9d28c38552627423be569fc10-77-1795308313-1795290313",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -65,7 +65,7 @@
           "name": "ESPN 5",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/espn5/mono.m3u8?token=e500756c2628b345420323ef09740ec1512938ea-d7-1795280898-1795262898",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/espn5/mono.m3u8?token=69aa5719744d26d2f6c89292879bb030842c54cf-96-1795308314-1795290314",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -77,7 +77,7 @@
           "name": "ESPN 6",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/espn6/mono.m3u8?token=b0cfacb0aee38ab6d281a1e1668fee24ce12997a-6d-1795280899-1795262899",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/espn6/mono.m3u8?token=8f5e24fddfc5f8ebbc21b3559ddc46b9cb7cf23f-59-1795308315-1795290315",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -87,33 +87,33 @@
         {
           "stream": "espn7",
           "name": "ESPN 7",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/espn7/mono.m3u8?token=301f9a5c2abf2f7c72acf98c8b55c5b05697cde4-77-1795280900-1795262900",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/espn7/mono.m3u8?token=12bdaa99e3a5f41af85d272ef29091da147f342b-1c-1795308316-1795290316",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "dsports",
           "name": "DSports",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/dsports/mono.m3u8?token=69a8fb2c82685688dc80a71f9c1775e5c8f30a33-77-1795280916-1795262916",
+          "resolvedUrl": "https://c2f2zq.fubo18.com:443/dsports/mono.m3u8?token=e88a75e167a9c25c86ac403ecd9416301e43456b-43-1795308316-1795290316",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "dsports2",
           "name": "DSports 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/dsports2/mono.m3u8?token=f04a487909b4d848e71bece33528b155f05d2078-41-1795280931-1795262931",
+          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/dsports2/mono.m3u8?token=4e31524699258e8f0296049ac3f100fab9dd9fad-e5-1795308317-1795290317",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -125,7 +125,7 @@
           "name": "DSports Plus",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/dsportsplus/mono.m3u8?token=a95f9f75e4b88cc413a7c965e134fcfe624533a6-c5-1795280933-1795262933",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/dsportsplus/mono.m3u8?token=c25c44d7bd0cf5216ea22d412e6507a9cb299738-13-1795308318-1795290318",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -135,14 +135,14 @@
         {
           "stream": "ecdf_ligapro",
           "name": "ECDF LigaPro (eventos)",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/ecdf_ligapro/mono.m3u8?token=8df19632a0ac68ff6dbb98f853dc0164ffb7b88a-c-1795280934-1795262934",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/ecdf_ligapro/mono.m3u8?token=7d2d5b7082a73b1a7ff8256ee0264161558864e6-97-1795308319-1795290319",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         }
       ],
       "ARGENTINA": [
@@ -151,7 +151,7 @@
           "name": "Fox Sports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/foxsports/mono.m3u8?token=3b1a3489238cfa579f019179b27ddb1575b95dae-21-1795280949-1795262949",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/foxsports/mono.m3u8?token=8e9895ab362e2b2ddd7dea2514e98d2d63ff0c62-3-1795308320-1795290320",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -163,7 +163,7 @@
           "name": "Fox Sports 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/foxsports2/mono.m3u8?token=c14f7e1cbc51d81a756398e20f734047cb2596f0-ab-1795280950-1795262950",
+          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/foxsports2/mono.m3u8?token=a182c482d8b37c8c38f991e51575ed928be28c25-4b-1795308320-1795290320",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -175,7 +175,7 @@
           "name": "Fox Sports 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/foxsports3/mono.m3u8?token=11a2032635a5a252cd7744e1efb583ac83d3cec3-a1-1795280951-1795262951",
+          "resolvedUrl": "https://c2f2zq.fubo18.com:443/foxsports3/mono.m3u8?token=ce0d0779a179e074210d591f9361b42be94fc914-cb-1795308321-1795290321",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -187,7 +187,7 @@
           "name": "TNT Sports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/tntsports/mono.m3u8?token=6ed8a0d289ec08f810ced6cc0237f8f41366ae3e-58-1795280953-1795262953",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/tntsports/mono.m3u8?token=1fdfb9a0aece7041b9e488245af90655556cc5c7-30-1795308322-1795290322",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -197,33 +197,33 @@
         {
           "stream": "espnpremium",
           "name": "ESPN Premium",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/espnpremium/mono.m3u8?token=e830f2663fde250c54307750f9a8d58c54a4c61a-5a-1795280954-1795262954",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/espnpremium/mono.m3u8?token=7b62bca8302125ffda48e823f4982395e6c493f9-de-1795308323-1795290323",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "tycsports",
           "name": "TyC Sports",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/tycsports/mono.m3u8?token=6d384caa0d8453587921422acf3b394edebd5803-bb-1795280969-1795262969",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/tycsports/mono.m3u8?token=c23152411904e975a407b8f3203beeefdafd73d9-c1-1795308323-1795290323",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "telefe",
           "name": "Telefe",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/telefe/mono.m3u8?token=46ee2a292648df76ddb86d4deeeae022a1ddf1d1-b6-1795280985-1795262985",
+          "resolvedUrl": "https://c2f2zq.fubo18.com:443/telefe/mono.m3u8?token=c4f7112b1211cabe455f2a1fbe7bf82c87e381e7-a7-1795308324-1795290324",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -237,7 +237,19 @@
           "name": "Liga1 MAX",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/liga1max/mono.m3u8?token=9fe5b507eac8ccd69aa016b6c371ca96f1a6b81f-bf-1795280986-1795262986",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/liga1max/mono.m3u8?token=8656fc8fa7956f397af9af62ae1d4058be45828d-2c-1795308325-1795290325",
+          "check": {
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
+          },
+          "error": null
+        },
+        {
+          "stream": "movistar",
+          "name": "Movistar Deportes",
+          "enabled": true,
+          "sourceActive": true,
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/movistar/mono.m3u8?token=db2f090f35294d1dfc497a5f7e4dc180561f4be0-8d-1795308326-1795290326",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -249,21 +261,21 @@
         {
           "stream": "winsports2",
           "name": "Win Sports plus (2)",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/winsports2/mono.m3u8?token=7a174e61124d763a77f6552e4eb2bf5d93418bc4-ab-1795280987-1795262987",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/winsports2/mono.m3u8?token=c518e0c663fbb06256e5e73e38a1d2d8be1e491a-6d-1795308326-1795290326",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "winsports",
           "name": "Win Sports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/winsports/mono.m3u8?token=6b43dd3f6a1f909a849dd16a26605f37f6ed3933-e9-1795281002-1795263002",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/winsports/mono.m3u8?token=ce0c63fe1e9f0ddcea5cca627e20f0988c069422-f0-1795308327-1795290327",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -277,7 +289,7 @@
           "name": "ESPN",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/espnmx/mono.m3u8?token=441b4580dc4d774b3532c01446fefdc40c3f88e1-f2-1795281003-1795263003",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/espnmx/mono.m3u8?token=ede430743a6300f3252680b368cddb6dd00bc43d-8e-1795308328-1795290328",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -287,21 +299,21 @@
         {
           "stream": "azteca7",
           "name": "Azteca 7",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/azteca7/mono.m3u8?token=1999b41cb0688b6074bf1fa2b3f1a4fa8c07da25-f9-1795281005-1795263005",
+          "resolvedUrl": "https://c2f2zq.fubo18.com:443/azteca7/mono.m3u8?token=f76d1f5b5bfab8ee34726325d9fd99ea0d681d32-54-1795308329-1795290329",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "tvc_deportes",
           "name": "TVC Deportes",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/tvc_deportes/mono.m3u8?token=54d64e4c28d50cdc46b013d65ec5ec4d99aec288-da-1795281020-1795263020",
+          "resolvedUrl": "https://c2f2zq.fubo18.com:443/tvc_deportes/mono.m3u8?token=2d9a2d9cb710e5aebb6044c365880278119adf5d-cf-1795308330-1795290330",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -315,7 +327,7 @@
           "name": "Fox Deportes",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/foxdeportes/mono.m3u8?token=dd6e14c74bef9b6a5e323a6eb40bee02be0bd4e2-92-1795281021-1795263021",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/foxdeportes/mono.m3u8?token=50a35970a024c832eeef0398089c3f0a143632bd-7d-1795308330-1795290330",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -327,7 +339,7 @@
           "name": "ESPN Deportes",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/espndeportes/mono.m3u8?token=c5fd9685d6865e357193cf7503c172200032c519-9-1795281022-1795263022",
+          "resolvedUrl": "https://dglvz29s.fubo18.com:443/espndeportes/mono.m3u8?token=73aeed13127fb2970a4aead2db6cb8a4fa7ac6b2-7-1795308331-1795290331",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -337,21 +349,21 @@
         {
           "stream": "tudn",
           "name": "TUDN",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/tudn/mono.m3u8?token=f55859ae80724ca5ece4e62f4b6cf37a5636aabb-41-1795281023-1795263023",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/tudn/mono.m3u8?token=f3f3a71f1e1dae4df96c34b6897b555812135e02-c6-1795308332-1795290332",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "univision",
           "name": "Univisión",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/univision/mono.m3u8?token=9a7c3a1567e4d4e5f18144efd182c8d9aedeb442-35-1795281039-1795263039",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/univision/mono.m3u8?token=7f74f141cdff200bc71e80ca8db1fae30848ef89-34-1795308333-1795290333",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -363,7 +375,7 @@
           "name": "Fox Sports 1",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/foxsports1_usa/mono.m3u8?token=f29caa26c9b9cd10be68d38b6aac6149a43bc450-42-1795281040-1795263040",
+          "resolvedUrl": "https://dglvz29s.fubo18.com:443/foxsports1_usa/mono.m3u8?token=2bbb999b0f55555241e41376a520ade0d6468b00-6d-1795308334-1795290334",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -375,7 +387,7 @@
           "name": "Fox Sports 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/foxsports2_usa/mono.m3u8?token=3a1e3d775c2153126b491dbccd449ad94db250b1-3f-1795281041-1795263041",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/foxsports2_usa/mono.m3u8?token=05ff18b19d460ecd65ee54b338501a734c952c05-cf-1795308334-1795290334",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -387,7 +399,7 @@
           "name": "Universo",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/universo/mono.m3u8?token=035976459324a60ffbe4f465db30a9496f1d5d27-4-1795281042-1795263042",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/universo/mono.m3u8?token=149572956811e2b0bcba8ca4f7e7a9be3fcbf0a1-83-1795308335-1795290335",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -399,7 +411,7 @@
           "name": "BeIN Sports Español",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/beinsportes/mono.m3u8?token=e34f799d27369874bafd980fd9db1b1507aeb067-54-1795281043-1795263043",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/beinsportes/mono.m3u8?token=0e419e75a8469d1583d9acab41c14a3e6020c97d-a4-1795308336-1795290336",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -411,7 +423,7 @@
           "name": "Unimás",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/unimas/mono.m3u8?token=db45620dc95ac5c6bad28a4d2315203f357b008f-f2-1795281044-1795263044",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/unimas/mono.m3u8?token=dcb89534b4a321ea47192ce736117c3e9167e7ce-f7-1795308337-1795290337",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -421,21 +433,21 @@
         {
           "stream": "beinsport_xtra_espanol",
           "name": "BeIN Sports Xtra Español",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/beinsport_xtra_espanol/mono.m3u8?token=7c077150a3c6ea8f51097453d36f8a0df08bb998-71-1795281045-1795263045",
+          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/beinsport_xtra_espanol/mono.m3u8?token=6da1c6cfb3e613798d2cf7586e24da08e1873384-3-1795308337-1795290337",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "telemundo",
           "name": "Telemundo",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/telemundo/mono.m3u8?token=3909af1a22db6955ed0643a3e31710ed242c248d-e1-1795281061-1795263061",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/telemundo/mono.m3u8?token=2b85f42ffffdeef121fdd2c647b25652b9a94a93-23-1795308338-1795290338",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -447,21 +459,21 @@
         {
           "stream": "premiere1",
           "name": "Premiere 1",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/premiere1/mono.m3u8?token=946c5cfc65cb76e320ce0e3a2b1be0176219d7eb-81-1795281062-1795263062",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/premiere1/mono.m3u8?token=64ae2fbca61dd5e1288901d8b4f2d46d5e430389-90-1795308339-1795290339",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "premiere2",
           "name": "Premiere 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/premiere2/mono.m3u8?token=c3f9693dcaf68d05d882430384869e9c6ffe7aea-c3-1795281078-1795263078",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/premiere2/mono.m3u8?token=b983e27dd58bbae9b63a78d7879c0c3f1ec94ccb-47-1795308339-1795290339",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -473,7 +485,7 @@
           "name": "Premiere 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/premiere3/mono.m3u8?token=2870632797a80669e60960403940a488729288d3-a0-1795281079-1795263079",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/premiere3/mono.m3u8?token=167c6bde112522dac825267e3fbb5ff027f4a902-bc-1795308340-1795290340",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -483,21 +495,21 @@
         {
           "stream": "premiere4",
           "name": "Premiere 4",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/premiere4/mono.m3u8?token=e8052a6adcbcc8aaa115e0cbdfa7562acdef0aae-3a-1795281080-1795263080",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/premiere4/mono.m3u8?token=015ab36ff48c09874c6cf617d19f636daa5cfc1f-c3-1795308341-1795290341",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "premiere5",
           "name": "Premiere 5",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/premiere5/mono.m3u8?token=0871e85d47650f2479e5dfa370222a2ca66b7a50-af-1795281095-1795263095",
+          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/premiere5/mono.m3u8?token=ad6ea7eeaa141dfd3bfcede4a1131a9e45aeffd3-62-1795308342-1795290342",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -507,21 +519,21 @@
         {
           "stream": "premiere6",
           "name": "Premiere 6",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/premiere6/mono.m3u8?token=a5dc5ff8f3b8139b3c491db78a081a774dc5c9c8-2-1795281096-1795263096",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/premiere6/mono.m3u8?token=dc2ccd1f7b05fc4dbc6daea4dea3921414e188eb-52-1795308342-1795290342",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "premiere7",
           "name": "Premiere 7",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/premiere7/mono.m3u8?token=00c8c3650e849b637e4d8b2008e0cb79f2c1585c-3f-1795281112-1795263112",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/premiere7/mono.m3u8?token=5933d8babbb6bcf7e9745c09fbb4fb801659ab8e-e9-1795308343-1795290343",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -533,7 +545,7 @@
           "name": "Sportv",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/sportv/mono.m3u8?token=52971e1b023646041300f3ab7404690d61102aa9-1c-1795281113-1795263113",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/sportv/mono.m3u8?token=18fdf5df91f9fe56f0ad1216be4682cdc0158cdf-e4-1795308344-1795290344",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -543,21 +555,21 @@
         {
           "stream": "sportv2",
           "name": "Sportv 2",
-          "enabled": false,
+          "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/sportv2/mono.m3u8?token=ba8882f215f36d0c8e199487325a66f7aff77e04-ce-1795281114-1795263114",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/sportv2/mono.m3u8?token=a61f4b474045f3eb62d2eee55a9cad3683e92cf8-79-1795308345-1795290345",
           "check": {
-            "ok": false,
-            "detail": "<urlopen error timed out>"
+            "ok": true,
+            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
           },
-          "error": "<urlopen error timed out>"
+          "error": null
         },
         {
           "stream": "sportv3",
           "name": "Sportv 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/sportv3/mono.m3u8?token=8f52be92fa303924847fc1043563937d8e998054-c3-1795281130-1795263130",
+          "resolvedUrl": "https://dglvz29s.fubo18.com:443/sportv3/mono.m3u8?token=baee763d043271025d2e74c0c10b7e71d1cbe6b5-25-1795308346-1795290346",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -569,300 +581,10 @@
   },
   "tvlibre": {
     "source": "https://tvlibre.st/agenda/",
-    "fetchedAt": "2026-11-21T12:27:11.731688+00:00",
+    "fetchedAt": "2026-11-21T20:00:47.655496+00:00",
     "date": "Agenda - Sábado 21 de Noviembre de 2026",
-    "count": 75,
+    "count": 47,
     "events": [
-      {
-        "category": "ALE",
-        "title": "Bundesliga 2: Wolfsburg vs. Holstein Kiel",
-        "time": "09:00",
-        "options": [
-          {
-            "name": "FOX Sports 2",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/fox-sports-2/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "ENG",
-        "title": "Premier League: Manchester City vs. Fulham",
-        "time": "09:30",
-        "options": [
-          {
-            "name": "ESPN 1",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "ENG",
-        "title": "Championship: Millwall vs. Queens Park Rangers",
-        "time": "09:30",
-        "options": [
-          {
-            "name": "FOX Sports 1",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/fox-sports/",
-            "url": null
-          },
-          {
-            "name": "ESPN 5",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn-5/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "ES",
-        "title": "LaLiga: Deportivo Alavés vs. Deportivo La Coruña",
-        "time": "10:00",
-        "options": [
-          {
-            "name": "ESPN 3",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn-3/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "TUR",
-        "title": "Super Lig: Galatasaray vs. Samsunspor",
-        "time": "10:00",
-        "options": []
-      },
-      {
-        "category": "FIFA",
-        "title": "Copa Mundial Sub-17: Camerún vs. Venezuela",
-        "time": "10:30",
-        "options": [
-          {
-            "name": "DSports+",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRzcG9ydHNwbHVz",
-            "url": "https://streamtp99a.sbs/global1.php?stream=dsportsplus"
-          },
-          {
-            "name": "DSports+ (Extensión)",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9iZXN0bGVhZ3VlLmxpZmUvdG9rLmh0bWw/Z2V0PVJITndiM0owYzE5UWJIVnpYMVZa",
-            "url": "https://bestleague.life/tok.html?get=RHNwb3J0c19QbHVzX1VZ"
-          }
-        ]
-      },
-      {
-        "category": "TE",
-        "title": "ATP: Carlos Alcaraz (ESP) vs. Ben Shelton (USA) (Semifinal)",
-        "time": "10:30",
-        "options": [
-          {
-            "name": "ESPN 2",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn-2/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "IT",
-        "title": "Serie A: Como vs. Cagliari",
-        "time": "11:00",
-        "options": []
-      },
-      {
-        "category": "IT",
-        "title": "Serie A: Lazio vs. Lecce",
-        "time": "11:00",
-        "options": []
-      },
-      {
-        "category": "POR",
-        "title": "Copa de Portugal: Mafra vs. Arouca",
-        "time": "11:00",
-        "options": [
-          {
-            "name": "FOX Sports 3",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/fox-sports-3/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "ALE",
-        "title": "Bundesliga: Bayer Leverkusen vs. Paderborn",
-        "time": "11:30",
-        "options": []
-      },
-      {
-        "category": "ALE",
-        "title": "Bundesliga: Borussia M'gladbach vs. Borussia Dortmund",
-        "time": "11:30",
-        "options": []
-      },
-      {
-        "category": "ALE",
-        "title": "Bundesliga: Eintracht Frankfurt vs. Hoffenheim",
-        "time": "11:30",
-        "options": []
-      },
-      {
-        "category": "ALE",
-        "title": "Bundesliga: Elversberg vs. Freiburg",
-        "time": "11:30",
-        "options": []
-      },
-      {
-        "category": "ALE",
-        "title": "Bundesliga: Union Berlin vs. RB Leipzig",
-        "time": "11:30",
-        "options": []
-      },
-      {
-        "category": "MOTOGP",
-        "title": "MotoGP: Sprint | GP Portugal",
-        "time": "11:30",
-        "options": [
-          {
-            "name": "ESPN 4",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn-4/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "ENG",
-        "title": "Premier League: Chelsea vs. Leeds United",
-        "time": "12:00",
-        "options": [
-          {
-            "name": "ESPN 1",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "ENG",
-        "title": "Premier League: AFC Bournemouth vs. Nottingham Forest",
-        "time": "12:00",
-        "options": []
-      },
-      {
-        "category": "ENG",
-        "title": "Premier League: Aston Villa vs. Sunderland",
-        "time": "12:00",
-        "options": []
-      },
-      {
-        "category": "ENG",
-        "title": "Premier League: Coventry City vs. Crystal Palace",
-        "time": "12:00",
-        "options": []
-      },
-      {
-        "category": "ENG",
-        "title": "Premier League: Tottenham Hotspur vs. Ipswich Town",
-        "time": "12:00",
-        "options": []
-      },
-      {
-        "category": "ENG",
-        "title": "Championship: Wolverhampton Wanderers vs. Charlton Athletic",
-        "time": "12:00",
-        "options": [
-          {
-            "name": "FOX Sports 1",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/fox-sports/",
-            "url": null
-          },
-          {
-            "name": "ESPN 7",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn-7/",
-            "url": null
-          }
-        ]
-      },
-      {
-        "category": "CH",
-        "title": "Primera División: Coquimbo Unido vs. Everton",
-        "time": "12:00",
-        "options": [
-          {
-            "name": "TNT Sports Premium Chile",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPXRudHNwb3J0c2NoaWxl",
-            "url": "https://streamtp99a.sbs/global1.php?stream=tntsportschile"
-          }
-        ]
-      },
-      {
-        "category": "ES",
-        "title": "LaLiga: Rayo Vallecano vs. Valencia",
-        "time": "12:15",
-        "options": [
-          {
-            "name": "DSports 2",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRzcG9ydHMy",
-            "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
-          }
-        ]
-      },
-      {
-        "category": "HOL",
-        "title": "Eredivisie: NEC vs. PSV",
-        "time": "12:30",
-        "options": []
-      },
-      {
-        "category": "FIFA",
-        "title": "Copa Mundial Sub-17: Chile vs. Argelia",
-        "time": "12:30",
-        "options": [
-          {
-            "name": "DSports+",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRzcG9ydHNwbHVz",
-            "url": "https://streamtp99a.sbs/global1.php?stream=dsportsplus"
-          },
-          {
-            "name": "DSports+ (Extensión)",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9iZXN0bGVhZ3VlLmxpZmUvdG9rLmh0bWw/Z2V0PVJITndiM0owYzE5UWJIVnpYMVZa",
-            "url": "https://bestleague.life/tok.html?get=RHNwb3J0c19QbHVzX1VZ"
-          }
-        ]
-      },
-      {
-        "category": "TUR",
-        "title": "Super Lig: Kocaelispor vs. Fenerbahçe",
-        "time": "13:00",
-        "options": []
-      },
-      {
-        "category": "FRA",
-        "title": "Ligue 1: Nice vs. PSG",
-        "time": "13:15",
-        "options": [
-          {
-            "name": "ESPN 4",
-            "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/en-vivo/espn-4/",
-            "url": null
-          }
-        ]
-      },
       {
         "category": "IT",
         "title": "Serie A: Parma vs. Roma",
@@ -873,6 +595,12 @@
             "quality": "Calidad 720p",
             "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWVzcG4=",
             "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+          },
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTE=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
           },
           {
             "name": "Disney+ (Extensión)",
@@ -886,7 +614,14 @@
         "category": "ENG",
         "title": "Premier League: Newcastle United vs. Arsenal",
         "time": "14:30",
-        "options": []
+        "options": [
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTI=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
+          }
+        ]
       },
       {
         "category": "ES",
@@ -906,6 +641,12 @@
         "title": "Bundesliga: Schalke 04 vs. Stuttgart",
         "time": "14:30",
         "options": [
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTM=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
+          },
           {
             "name": "ESPN 2",
             "quality": "Calidad 720p",
@@ -930,6 +671,12 @@
             "quality": "Calidad 720p",
             "href": "https://tvlibre.st/en-vivo/espn-7/",
             "url": null
+          },
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTQ=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
           }
         ]
       },
@@ -1015,7 +762,14 @@
         "category": "USA",
         "title": "MLS: New England vs. Philadelphia Union",
         "time": "16:00",
-        "options": []
+        "options": [
+          {
+            "name": "MLS",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPW1sczE=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=mls1"
+          }
+        ]
       },
       {
         "category": "BRA",
@@ -1085,31 +839,66 @@
         "category": "IT",
         "title": "Serie A: Napoli vs. Torino",
         "time": "16:45",
-        "options": []
+        "options": [
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTU=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+          }
+        ]
       },
       {
         "category": "FRA",
         "title": "Ligue 1: Lille vs. Olympique Lyonnais",
         "time": "16:45",
-        "options": []
+        "options": [
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTc=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
+          }
+        ]
       },
       {
         "category": "FRA",
         "title": "Ligue 1: Strasbourg vs. Brest",
         "time": "16:45",
-        "options": []
+        "options": [
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTk=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+          }
+        ]
       },
       {
         "category": "FRA",
         "title": "Ligue 1: Monaco vs. Auxerre",
         "time": "16:45",
-        "options": []
+        "options": [
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTg=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
+          }
+        ]
       },
       {
         "category": "FRA",
         "title": "Ligue 1: Lens vs. Toulouse",
         "time": "16:45",
-        "options": []
+        "options": [
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTY=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+          }
+        ]
       },
       {
         "category": "AR",
@@ -1134,6 +923,18 @@
             "quality": "Calidad 720p",
             "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWVzcG4=",
             "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+          },
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTEw",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
+          },
+          {
+            "name": "ESPN+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWVzcG5wbHVzNA==",
+            "url": "https://streamtp99a.sbs/global1.php?stream=espnplus4"
           },
           {
             "name": "Disney+ (Extensión)",
@@ -1212,7 +1013,14 @@
         "category": "USA",
         "title": "MLS: Dallas vs. Portland Timbers",
         "time": "18:00",
-        "options": []
+        "options": [
+          {
+            "name": "MLS Pass",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPW1sczI=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=mls2"
+          }
+        ]
       },
       {
         "category": "CH",
@@ -1243,6 +1051,18 @@
             "quality": "Calidad 720p",
             "href": "https://tvlibre.st/en-vivo/espn/",
             "url": null
+          },
+          {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTEx",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+          },
+          {
+            "name": "Disney+ 2",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW14aGQuc2JzL2xpdmUxLnBocD9zdHJlYW09ZGlzbmV5MzA=",
+            "url": "https://streamxhd.sbs/live1.php?stream=disney30"
           }
         ]
       },
@@ -1265,6 +1085,12 @@
         "time": "20:00",
         "options": [
           {
+            "name": "Disney+",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTEy",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
+          },
+          {
             "name": "ESPN 1 MX",
             "quality": "Calidad 720p",
             "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWVzcG5teA==",
@@ -1276,7 +1102,20 @@
         "category": "USA",
         "title": "MLS: Inter Miami vs. Columbus Crew",
         "time": "20:00",
-        "options": []
+        "options": [
+          {
+            "name": "MLS Pass",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPW1sczM=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=mls3"
+          },
+          {
+            "name": "MLS Pass 2",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW14aGQuc2JzL2xpdmUxLnBocD9zdHJlYW09YXBwbGV0djM=",
+            "url": "https://streamxhd.sbs/live1.php?stream=appletv3"
+          }
+        ]
       },
       {
         "category": "CH",
@@ -1397,6 +1236,12 @@
             "quality": "Calidad 720p",
             "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWF6dGVjYTc=",
             "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
+          },
+          {
+            "name": "FOX Deportes",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWZveGRlcG9ydGVz",
+            "url": "https://streamtp99a.sbs/global1.php?stream=foxdeportes"
           }
         ]
       },
@@ -1412,16 +1257,22 @@
             "url": null
           },
           {
-            "name": "ESPN 2",
+            "name": "ESPN 1",
             "quality": "Calidad 720p",
-            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWVzcG4y",
-            "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWVzcG4=",
+            "url": "https://streamtp99a.sbs/global1.php?stream=espn"
           },
           {
             "name": "Disney+",
             "quality": "Calidad 720p",
             "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW14aGQuc2JzL2xpdmUxLnBocD9zdHJlYW09ZGlzbmV5NA==",
             "url": "https://streamxhd.sbs/live1.php?stream=disney4"
+          },
+          {
+            "name": "Disney+ 2",
+            "quality": "Calidad 720p",
+            "href": "https://tvlibre.st/eventos/?r=aHR0cHM6Ly9zdHJlYW10cDk5YS5zYnMvZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTE0",
+            "url": "https://streamtp99a.sbs/global1.php?stream=disney14"
           },
           {
             "name": "DAZN F1",
