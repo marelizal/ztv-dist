@@ -1,7 +1,7 @@
 {
-  "versionCode": 35,
-  "versionName": "1.4.27",
-  "apk": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/Z-1.4.27.apk",
-  "sha256": "a0bd11a833109c34685e8190efd2f518cfe86108ca7559721d2c909ba3f3827d",
-  "notes": "Migración a com.z.app (nueva clave de firma). Deportes: feed unificado (sports.json), canales verificados y ordenados, agenda integrada con info de transmisión y sin referencias de origen en la interfaz."
+  "versionCode": 37,
+  "versionName": "1.4.29",
+  "apk": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/Z-1.4.29.apk",
+  "sha256": "83f57d0526e00ba0fd6e1d8970318d37662129b68666e8f4f5a2f1b10a7561a2",
+  "notes": "Saludo personalizado al entrar. En Deportes, ahora podés ver los próximos eventos debajo de cada canal."
 }
