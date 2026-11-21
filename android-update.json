@@ -1,7 +1,7 @@
 {
-  "versionCode": 35,
-  "versionName": "1.4.27",
-  "apk": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/Z-1.4.27.apk",
-  "sha256": "a0bd11a833109c34685e8190efd2f518cfe86108ca7559721d2c909ba3f3827d",
-  "notes": "Migración a com.z.app (nueva clave de firma). Deportes: feed unificado (sports.json), canales verificados y ordenados, agenda integrada con info de transmisión y sin referencias de origen en la interfaz."
+  "versionCode": 36,
+  "versionName": "1.4.28",
+  "apk": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/Z-1.4.28.apk",
+  "sha256": "41dd93354a89105748a0f421a3191ce6e93c99d94b8d2ddd718136ff52f351ab",
+  "notes": "Fix portal200001: integración de semilla Kino como fuente primaria con fallback a pools remotos y guardias baseFields en sesión."
 }
