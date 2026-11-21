@@ -1,7 +1,7 @@
 {
-  "versionCode": 37,
-  "versionName": "1.4.29",
-  "apk": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/Z-1.4.29.apk",
-  "sha256": "83f57d0526e00ba0fd6e1d8970318d37662129b68666e8f4f5a2f1b10a7561a2",
-  "notes": "Saludo personalizado al entrar. En Deportes, ahora podés ver los próximos eventos debajo de cada canal."
+  "versionCode": 38,
+  "versionName": "1.4.30",
+  "apk": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/Z-1.4.30.apk",
+  "sha256": "1844918ad1788e58f4833ac3290a2af33db0d4a447aa123b5338d719db815911",
+  "notes": "Corrige canales Deportes/agenda: renueva enlaces efímeros al volver y evita el error de canal inexistente."
 }
