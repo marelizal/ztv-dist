@@ -34,9 +34,6 @@ var crypto = require("crypto"),
   TREE_TTL = 6e5,
   SEARCH_TTL = 18e4,
   SLB_TTL = 3e5,
-  KINO_SEED_URL = "https://x.xkplugins.site/seed",
-  KINO_BEARER_DEFAULT = "UPdTgzYTsjit9K1MvT_KbCMnXOLOXeeWn3fYzluESfY",
-  KINO_BEARER_FILE = "/tmp/ztvsm-bearer.json",
   SEED_URL =
     process.env.ZTV_SEEDS_URL ||
     "https://raw.githubusercontent.com/cristianco7/XUPER-HYDRA-PORT-WEBOS/seeds/seeds.json",
@@ -591,7 +588,6 @@ function call(e, r, t, n) {
             );
         if (
           a &&
-          !1 !== t.baseFields &&
           ("aaa100028" === i || "aaa100027" === i || l || u) &&
           !t._sessionRetried
         )
@@ -627,7 +623,6 @@ function call(e, r, t, n) {
           );
         if (
           a &&
-          !1 !== t.baseFields &&
           (i === GEO_BLOCKED || l || u) &&
           (t._seedTries || 0) < SEED_RESCUE_ROUNDS
         ) {
@@ -801,81 +796,6 @@ function loadLocalFallback(cb) {
     cb(e);
   }
 }
-var kinoBearer = KINO_BEARER_DEFAULT;
-try {
-  var _kbf = JSON.parse(fs.readFileSync(KINO_BEARER_FILE, "utf8"));
-  if (_kbf && _kbf.bearer && typeof _kbf.bearer === "string") {
-    kinoBearer = _kbf.bearer.trim();
-  }
-} catch (e) {}
-
-function setKinoBearer(token) {
-  if (token && typeof token === "string") {
-    kinoBearer = token.trim();
-    writeJsonSafe(KINO_BEARER_FILE, { bearer: kinoBearer });
-    console.log("[magis] bearer actualizado");
-  }
-}
-
-function fetchKinoSeed(cb) {
-  if (!kinoBearer) return cb(new Error("sin bearer"));
-  var t = url.parse(KINO_SEED_URL);
-  t.method = "GET";
-  t.rejectUnauthorized = !1;
-  t.headers = {
-    "Authorization": "Bearer " + kinoBearer,
-    "Content-Type": "application/json",
-    "X-Plugin-Version": "3.1.1",
-    "User-Agent": "okhttp/4.12.0"
-  };
-  dnsx.prepare(t, function (err, reqOpts) {
-    if (err) return cb(err);
-    var req;
-    reqOpts.rejectUnauthorized = !1;
-    try {
-      req = https.request(reqOpts, function (res) {
-        if (200 !== res.statusCode) {
-          res.resume();
-          return cb(new Error("kino seed HTTP " + res.statusCode));
-        }
-        var chunks = [];
-        res.on("data", function (c) { chunks.push(c); });
-        res.on("error", function (e) { cb(e); });
-        res.on("end", function () {
-          var parsed;
-          try {
-            parsed = JSON.parse(Buffer.concat(chunks).toString("utf8"));
-          } catch (pe) {
-            return cb(pe);
-          }
-          var s = parsed && parsed.seed;
-          if (!s || !s.userId || !s.userToken) {
-            return cb(new Error("kino seed inválido"));
-          }
-          var exp = parsed.expires_at ? Math.floor(parsed.expires_at / 1000) : Math.floor(Date.now() / 1000 + 28800);
-          var item = {
-            userId: String(s.userId).trim(),
-            userToken: String(s.userToken).trim(),
-            sn: String(s.sn || "").trim().toLowerCase(),
-            customer: String(s.customer || "").trim(),
-            jwtToken: String(s.jwtToken || "").trim(),
-            exp: exp
-          };
-          cb(null, [item]);
-        });
-      });
-    } catch (e) {
-      return cb(e);
-    }
-    req.on("error", function (e) { cb(e); });
-    req.setTimeout(6e3, function () {
-      req.abort();
-      cb(new Error("timeout kino seed"));
-    });
-    req.end();
-  });
-}
-
 function refreshSeeds(e, force) {
   if (((e = e || function () {}), seedInflight)) return seedWaiters.push(e);
   else {
@@ -980,39 +900,25 @@ function refreshSeeds(e, force) {
       });
     };
 
-    var doRemoteSeeds = function () {
-      fetchSeedList(SEED_URL, function (err) {
-        if (!err) return n(null);
+    fetchSeedList(SEED_URL, function (err) {
+      if (!err) return n(null);
+      console.warn(
+        "[magis] SEED_URL fallo (" +
+          (err && err.message ? err.message : err) +
+          "), intentando SEED_BACKUP_URL"
+      );
+      fetchSeedList(SEED_BACKUP_URL, function (bErr) {
+        if (!bErr) return n(null);
         console.warn(
-          "[magis] SEED_URL fallo (" +
-            (err && err.message ? err.message : err) +
-            "), intentando SEED_BACKUP_URL"
+          "[magis] SEED_BACKUP_URL fallo (" +
+            (bErr && bErr.message ? bErr.message : bErr) +
+            "), intentando pool de respaldo local"
         );
-        fetchSeedList(SEED_BACKUP_URL, function (bErr) {
-          if (!bErr) return n(null);
-          console.warn(
-            "[magis] SEED_BACKUP_URL fallo (" +
-              (bErr && bErr.message ? bErr.message : bErr) +
-              "), intentando pool de respaldo local"
-          );
-          loadLocalFallback(function (fErr) {
-            if (!fErr) return n(null);
-            n(err || bErr || fErr);
-          });
+        loadLocalFallback(function (fErr) {
+          if (!fErr) return n(null);
+          n(err || bErr || fErr);
         });
       });
-    };
-
-    fetchKinoSeed(function (kErr, kSeeds) {
-      if (!kErr && kSeeds && kSeeds.length) {
-        storeSeeds(kSeeds);
-        console.log("[magis] semilla fresca obtenida vía backend oficial Kino (8h)");
-        return n(null);
-      }
-      if (kErr) {
-        console.log("[magis] kino seed no disponible (" + (kErr.message || kErr) + "), recurriendo a pool remoto");
-      }
-      doRemoteSeeds();
     });
   }
 }
@@ -2485,7 +2391,6 @@ module.exports = {
   call: call,
   post: post,
   ensureSession: ensureSession,
-  setKinoBearer: setKinoBearer,
   refreshSeeds: refreshSeeds,
   session: session,
   seedStatus: function () {
