@@ -2,7 +2,7 @@ name: la18hd links check
 
 on:
   schedule:
-    - cron: "0 8 * * *" # diario 08:00 UTC
+    - cron: "0 * * * *" # cada hora (minuto 0, UTC)
   workflow_dispatch:
 
 jobs:
