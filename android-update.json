@@ -1,0 +1,7 @@
+{
+  "versionCode": 34,
+  "versionName": "1.4.26",
+  "apk": "https://raw.githubusercontent.com/marelizal/ztv-dist/main/releases/Z-1.4.26.apk",
+  "sha256": "145a1eadd655f27ad6370731ae0487c7848435d83e56cab5bbf796ce1435da64",
+  "notes": "Deportes: feed unificado (sports.json), canales verificados y ordenados, agenda integrada con info de transmisión y sin referencias de origen en la interfaz."
+}
