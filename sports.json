@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T04:54:37.932161+00:00",
+  "generatedAt": "2026-11-27T14:53:08.134669+00:00",
   "timezone": "UTC",
   "sources": {
     "la18": "https://la18hd.su/status.json",
@@ -7,9 +7,9 @@
   },
   "la18": {
     "source": "https://la18hd.su/status.json",
-    "checkedAt": "2026-11-27T04:54:37.369250+00:00",
-    "ok": 58,
-    "total": 58,
+    "checkedAt": "2026-11-27T14:53:07.267925+00:00",
+    "ok": 56,
+    "total": 56,
     "countries": {
       "LATINOAMERICA": [
         {
@@ -17,7 +17,7 @@
           "name": "ESPN",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/espn/mono.m3u8?token=460756788a9d9d04be7737347a8d9579e545d9f4-d2-1795772337-1795754337",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/espn/mono.m3u8?token=3e38baf14d9dfe0837f3ffb1d6a27ee07a67eef9-f5-1795808225-1795790225",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -29,7 +29,7 @@
           "name": "ESPN 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://c2f2zq.fubo18.com:443/espn2/mono.m3u8?token=2631220db0a4c5e0e88bd55cfa766e8613c72b94-55-1795772338-1795754338",
+          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/espn2/mono.m3u8?token=71ad23f99f7c7803fe700c9134e8549a04a8d94f-a6-1795808226-1795790226",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -41,7 +41,7 @@
           "name": "ESPN 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/espn3/mono.m3u8?token=7d68212ebf5822aab4bcfd57a39edf402c05a23e-60-1795772339-1795754339",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/espn3/mono.m3u8?token=984ca2ea46b06a40bd385f2e85bd3a005e01d208-2-1795808227-1795790227",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -53,7 +53,7 @@
           "name": "ESPN 4",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/espn4/mono.m3u8?token=f0e47d4a0b9ed6953bc008958225c90072272eb9-ec-1795772339-1795754339",
+          "resolvedUrl": "https://c2f2zq.fubo18.com:443/espn4/mono.m3u8?token=0ffc556a6bc03f96d2af550eb12fd1fac3c41e04-6a-1795808228-1795790228",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -65,7 +65,7 @@
           "name": "ESPN 5",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/espn5/mono.m3u8?token=f112fcb27260731e10734cab3e6737f9af02d891-af-1795772340-1795754340",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/espn5/mono.m3u8?token=f708499dc58f2cb63ee0be7cff22c6be4d6012b8-aa-1795808229-1795790229",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -77,7 +77,7 @@
           "name": "ESPN 6",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://c2f2zq.fubo18.com:443/espn6/mono.m3u8?token=783ab39be3e8ac6219d2c7a6062876f864157013-3b-1795772341-1795754341",
+          "resolvedUrl": "https://dglvz29s.fubo18.com:443/espn6/mono.m3u8?token=7da581fc3b9dba02f729197e2eefc79e9c348b70-18-1795808230-1795790230",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -89,7 +89,7 @@
           "name": "ESPN 7",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/espn7/mono.m3u8?token=1699c91a3518d665841fb05bd41260d506a98b0d-d-1795772342-1795754342",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/espn7/mono.m3u8?token=e7e4674c7c00744a2932cc97847c9d2248366bcb-58-1795808232-1795790232",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -101,7 +101,7 @@
           "name": "DSports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/dsports/mono.m3u8?token=237ec52bdd55ee16a807d5498da359a880e3dfae-ff-1795772342-1795754342",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/dsports/mono.m3u8?token=59a5e025050a227c401335890ab04e919dee0ce8-63-1795808233-1795790233",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -113,7 +113,7 @@
           "name": "DSports 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/dsports2/mono.m3u8?token=2e0f2b61239f65017adfab0d599b003aa95387ec-e5-1795772343-1795754343",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/dsports2/mono.m3u8?token=a7d88df58515915e74d21eca08846dc712179dc8-32-1795808234-1795790234",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -125,7 +125,7 @@
           "name": "DSports Plus",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/dsportsplus/mono.m3u8?token=f986b2b355351f06c58bd8463d455f895c890625-fb-1795772344-1795754344",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/dsportsplus/mono.m3u8?token=d5698165525a7889879e13ac58bbd8b0ff9522ad-d9-1795808235-1795790235",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -137,7 +137,7 @@
           "name": "ECDF LigaPro (eventos)",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://c2f2zq.fubo18.com:443/ecdf_ligapro/mono.m3u8?token=efdcc46d3cb7bc9195b3953c53136ace9448e6b6-36-1795772344-1795754344",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/ecdf_ligapro/mono.m3u8?token=0ede0faa79fbe6f6c0f563af8c211f6e0fecf9ae-76-1795808236-1795790236",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -147,23 +147,11 @@
       ],
       "ARGENTINA": [
         {
-          "stream": "foxsports",
-          "name": "Fox Sports",
-          "enabled": true,
-          "sourceActive": true,
-          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/foxsports/mono.m3u8?token=b7e6f6d428c48172eb64f11427deccd37b2356e4-6e-1795772345-1795754345",
-          "check": {
-            "ok": true,
-            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
-          },
-          "error": null
-        },
-        {
           "stream": "foxsports2",
           "name": "Fox Sports 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/foxsports2/mono.m3u8?token=67bb423d3580c8a908ca9fbd5ee80e7771a70a8e-ab-1795772346-1795754346",
+          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/foxsports2/mono.m3u8?token=6516263b1cbfbce273328ce3c5a9def5910b4660-88-1795808237-1795790237",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -175,7 +163,7 @@
           "name": "Fox Sports 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dglvz29s.fubo18.com:443/foxsports3/mono.m3u8?token=6ba96ffb6e7c88403efcbc43685f371b07e4df6b-c1-1795772346-1795754346",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/foxsports3/mono.m3u8?token=253092e396a43db7c337ae11f033e6222a728fff-2b-1795808238-1795790238",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -187,7 +175,7 @@
           "name": "TNT Sports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/tntsports/mono.m3u8?token=3166127c93be0eb8d0a9be4de458fecc314af568-e5-1795772347-1795754347",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/tntsports/mono.m3u8?token=53d355dea3ff8cde16857ee9f4d091c330c4411a-af-1795808239-1795790239",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -199,7 +187,7 @@
           "name": "ESPN Premium",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dglvz29s.fubo18.com:443/espnpremium/mono.m3u8?token=92f7b875b475bc490c5791b16bfed5bd7334f55e-13-1795772348-1795754348",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/espnpremium/mono.m3u8?token=e897be8664b9961a4b8133d853e24928fcf7fd0b-4e-1795808240-1795790240",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -211,7 +199,7 @@
           "name": "TyC Sports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/tycsports/mono.m3u8?token=24511f6396fd0d6b3248e9967200bd659ae7bc8c-4b-1795772348-1795754348",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/tycsports/mono.m3u8?token=749ab7963c357a3a1ebc07c370f3023e1328b523-e0-1795808242-1795790242",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -223,7 +211,7 @@
           "name": "TyC Sports Internacional (USA)",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/tycinternacional/mono.m3u8?token=eae81363dc4a6ef4e5a34fb56c0a571cbd3ce529-86-1795772349-1795754349",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/tycinternacional/mono.m3u8?token=25e990b153037bf2f78b8c09ede84971925ea6b4-52-1795808243-1795790243",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -235,7 +223,7 @@
           "name": "Telefe",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/telefe/mono.m3u8?token=567ce663dee550a8ee72f7e653f04614d09e4a02-9d-1795772350-1795754350",
+          "resolvedUrl": "https://dglvz29s.fubo18.com:443/telefe/mono.m3u8?token=1e0869225645db04ea456802ad8aba549396733f-33-1795808244-1795790244",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -249,7 +237,7 @@
           "name": "Liga1 MAX",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/liga1max/mono.m3u8?token=9f54516a32317872cb05be85d50352d4f80884b3-cd-1795772350-1795754350",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/liga1max/mono.m3u8?token=d02f3d9cbe3f41c7900e36d7574263b47b32edae-8e-1795808245-1795790245",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -261,7 +249,7 @@
           "name": "Movistar Deportes",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/movistar/mono.m3u8?token=0e9208d2e08c1eddb5aa5c5236633229292418b5-fa-1795772351-1795754351",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/movistar/mono.m3u8?token=e5b5c8cf68aba88b2b8027101b54853a58fe6da4-e2-1795808246-1795790246",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -275,7 +263,7 @@
           "name": "Win Sports Plus",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/winsportsplus/mono.m3u8?token=ed4b451317717d7c4a5ea8d30c137058f57dcf8c-4e-1795772352-1795754352",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/winsportsplus/mono.m3u8?token=3203353b2c36aa1f12808af8f7ef77d928c90b37-29-1795808247-1795790247",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -287,7 +275,7 @@
           "name": "Win Sports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/winsports/mono.m3u8?token=5f75a7f55765e60a3c587ca48e007b5ca78fee3f-a3-1795772353-1795754353",
+          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/winsports/mono.m3u8?token=43ceca05d7262ecc325ef2a5c252a059ddf0f64b-5f-1795808248-1795790248",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -301,7 +289,7 @@
           "name": "Fox Sports",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/foxsportsmx/mono.m3u8?token=eae93493f28722a4a7f849c3879a9a71bf6f8e05-2-1795772353-1795754353",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/foxsportsmx/mono.m3u8?token=583cd2f41e52879441155c23d3fd5cd325676a83-4b-1795808249-1795790249",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -313,7 +301,7 @@
           "name": "Fox Sports 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/foxsports2mx/mono.m3u8?token=b6f1fe9c231a0eb916fc7aea368b7bf6eaf73392-37-1795772354-1795754354",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/foxsports2mx/mono.m3u8?token=0a3a8a4878a8e153e0c81d96c950c16126c09418-c1-1795808251-1795790251",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -325,7 +313,7 @@
           "name": "Fox Sports Premium",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/foxsportspremium/mono.m3u8?token=1a9991f8c222ca8efdc87279496b3aba5f106a6b-58-1795772355-1795754355",
+          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/foxsportspremium/mono.m3u8?token=afbecc631e3d4b61dd97b1d43a72c9d38433c229-2c-1795808252-1795790252",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -337,7 +325,7 @@
           "name": "TUDN",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://a2lja3m.fubo18.com:443/tudn_mx/mono.m3u8?token=acc3956d0fadee09664e28c45b907bba911cbb72-b9-1795772355-1795754355",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/tudn_mx/mono.m3u8?token=e8780c097f875c44cea8b089876921d6478694f6-d4-1795808253-1795790253",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -349,7 +337,7 @@
           "name": "ESPN",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/espnmx/mono.m3u8?token=c287a21695edf57589314dedd0d9fee78a13f043-b3-1795772356-1795754356",
+          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/espnmx/mono.m3u8?token=8f55264b08ccb164c4ae252a76ebc7d271f41967-b4-1795808254-1795790254",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -361,7 +349,7 @@
           "name": "ESPN 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/espn2mx/mono.m3u8?token=f063629c85d99ff8b76e18c85d9dc6cab68ff9aa-d3-1795772357-1795754357",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/espn2mx/mono.m3u8?token=8bf9e806a7f1970f30ae47eba4e08dd6ae7cccee-97-1795808255-1795790255",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -373,7 +361,7 @@
           "name": "ESPN 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/espn3mx/mono.m3u8?token=6d54024a4249a0dfd69f0483db7f89313dcb3626-f2-1795772357-1795754357",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/espn3mx/mono.m3u8?token=2a66c23f52d1a530c658bde83a42fcc053c72c84-76-1795808256-1795790256",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -385,7 +373,7 @@
           "name": "ESPN 4",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/espn4mx/mono.m3u8?token=dc119cb03aafc380c835ca4567bf3830e711cce0-67-1795772358-1795754358",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/espn4mx/mono.m3u8?token=36ca914ec827793c3a47927513b0249bb25bd6ad-5a-1795808257-1795790257",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -397,7 +385,7 @@
           "name": "Azteca 7",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://c2f2zq.fubo18.com:443/azteca7/mono.m3u8?token=483cc6e3968dee6ffb2d7385942580cf1c1c92f7-4e-1795772359-1795754359",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/azteca7/mono.m3u8?token=9b37c5d7c5da8ef078ae6c918b651569354b2f17-aa-1795808258-1795790258",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -409,19 +397,7 @@
           "name": "Canal 5",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/canal5/mono.m3u8?token=6a7fd252b59c77a7b129ddbd776cfbd83659ece2-8a-1795772359-1795754359",
-          "check": {
-            "ok": true,
-            "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
-          },
-          "error": null
-        },
-        {
-          "stream": "tvc_deportes",
-          "name": "TVC Deportes",
-          "enabled": true,
-          "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/tvc_deportes/mono.m3u8?token=d15ee27ab9f39c5611b51b4373925ec7ed9b2d4a-b8-1795772360-1795754360",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/canal5/mono.m3u8?token=f373cd770f8723b112d8b13c91b0fe78cbe86f27-2a-1795808259-1795790259",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -433,7 +409,7 @@
           "name": "Azteca Deportes",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://c2f2zq.fubo18.com:443/azteca_deportes/mono.m3u8?token=2849776b13f8ee634a8f93c0eea7917ff67726a3-69-1795772361-1795754361",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/azteca_deportes/mono.m3u8?token=90a65f9edab6a8e8ac39010ddb5f3be96fd74e76-14-1795808261-1795790261",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -447,7 +423,7 @@
           "name": "Fox Deportes",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/foxdeportes/mono.m3u8?token=1f495239c0aa1b945685b93524e63d1273bc5102-74-1795772361-1795754361",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/foxdeportes/mono.m3u8?token=b3f872ed03b2e458a22a41fb981433addc1606b2-55-1795808262-1795790262",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -459,7 +435,7 @@
           "name": "ESPN Deportes",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/espndeportes/mono.m3u8?token=2d470fe2a1e763d82bdb4dbe6b3ef979505e09e9-2-1795772362-1795754362",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/espndeportes/mono.m3u8?token=736d7b34cc5a4f9866f274bdaab9a61f855c5c75-da-1795808263-1795790263",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -471,7 +447,7 @@
           "name": "TUDN",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/tudn/mono.m3u8?token=48d735c6bfac51733c6689acbbc9ee502000cb7b-63-1795772363-1795754363",
+          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/tudn/mono.m3u8?token=6323528458aee0ee8ef1b09cc59f2c475caa49db-72-1795808264-1795790264",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -483,7 +459,7 @@
           "name": "Univisión",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/univision/mono.m3u8?token=2abe41164a35126964cc5c0c1e396f377963a30b-a8-1795772363-1795754363",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/univision/mono.m3u8?token=17efdef79d24b7a326269fb16e373417ed1ca05a-53-1795808265-1795790265",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -495,7 +471,7 @@
           "name": "Fox Sports 1",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/foxsports1_usa/mono.m3u8?token=ebc0498862677d899f79599467668f361ba76724-ad-1795772364-1795754364",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/foxsports1_usa/mono.m3u8?token=9298d18a6ad401ec218d9f28f8659aa44a1a5e42-3f-1795808266-1795790266",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -507,7 +483,7 @@
           "name": "Fox Sports 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/foxsports2_usa/mono.m3u8?token=b0a7f6e76084d55f2f4b172f88b391382a70e568-1a-1795772365-1795754365",
+          "resolvedUrl": "https://c2f2zq.fubo18.com:443/foxsports2_usa/mono.m3u8?token=b92ab646481e388f6d05e686aa0dbceba7a31882-47-1795808267-1795790267",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -519,7 +495,7 @@
           "name": "Universo",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://c2f2zq.fubo18.com:443/universo/mono.m3u8?token=8cc62e4f4d253f27fe95c100a3491d89e5496d18-a4-1795772365-1795754365",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/universo/mono.m3u8?token=c7337bc804c7836d8f2f5f9b230774426500854c-8a-1795808268-1795790268",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -531,7 +507,7 @@
           "name": "BeIN Sports Español",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/beinsportes/mono.m3u8?token=9f74e4c256206d37bf09bdc86bd0f0a6380a364b-5f-1795772366-1795754366",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/beinsportes/mono.m3u8?token=ab60d0caad4e88dd125a7e663ebf5a1d402b7087-23-1795808269-1795790269",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -543,7 +519,7 @@
           "name": "Unimás",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/unimas/mono.m3u8?token=61d56b68de767dccdd61d90d6d1a9c7451681597-38-1795772367-1795754367",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/unimas/mono.m3u8?token=20c65c95b890d068764e245267b2d68ed8d93b33-af-1795808271-1795790271",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -555,7 +531,7 @@
           "name": "BeIN Sports Xtra Español",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/beinsport_xtra_espanol/mono.m3u8?token=16578b44efca88485e2f877685d9f7fa6895a161-b7-1795772367-1795754367",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/beinsport_xtra_espanol/mono.m3u8?token=2c858a71306f8e30d02603630658531f908c77bf-41-1795808272-1795790272",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -567,7 +543,7 @@
           "name": "ESPN",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://c2f2zq.fubo18.com:443/espn_usa/mono.m3u8?token=811cfb7a0c15cfad4e3b89a669e93f6dc5c4d8e0-5e-1795772368-1795754368",
+          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/espn_usa/mono.m3u8?token=1be47cd0e5ef1ae619db4e141d5ecc7b27947ac5-ae-1795808273-1795790273",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -579,7 +555,7 @@
           "name": "USAnetwork",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dw5pdgvk.fubo18.com:443/usanetwork/mono.m3u8?token=e0ecbd10a2aab255ece842a41312bd09b552bbd3-28-1795772369-1795754369",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/usanetwork/mono.m3u8?token=8d06262cea1e15eb27a0ee1eb05eaeac81283334-22-1795808274-1795790274",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -591,7 +567,7 @@
           "name": "Telemundo",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/telemundo/mono.m3u8?token=9f40c5661952db94364fc15c4d4bb9d4e7719856-4f-1795772370-1795754370",
+          "resolvedUrl": "https://ewvz.fubo18.com:443/telemundo/mono.m3u8?token=cf09101c28c2688478c962f24e4b3ddf00e79284-ea-1795808275-1795790275",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -605,7 +581,7 @@
           "name": "Premiere 1",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://y2fzdgxl.fubo18.com:443/premiere1/mono.m3u8?token=3668b68bbd309a91dbe6bfd40e8e7198f7fb1ec6-e1-1795772370-1795754370",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/premiere1/mono.m3u8?token=12c235320a035e79567f1550b9211a316a67f843-ae-1795808276-1795790276",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -617,7 +593,7 @@
           "name": "Premiere 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/premiere2/mono.m3u8?token=4fc1bb0374ec422bc3117d034b1ce4db0ad981ae-d0-1795772371-1795754371",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/premiere2/mono.m3u8?token=58a5d9ea1975a35ea19339a7358b8a6070bbeebe-2e-1795808277-1795790277",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -629,7 +605,7 @@
           "name": "Premiere 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/premiere3/mono.m3u8?token=349947e82bca5e0d283e6abebd20a4c18f4406bd-b1-1795772372-1795754372",
+          "resolvedUrl": "https://dglvz29s.fubo18.com:443/premiere3/mono.m3u8?token=6336d8511c68e4a8c18e1d48e0472aebcdbec2f7-b8-1795808278-1795790278",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -641,7 +617,7 @@
           "name": "Premiere 4",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ym9yzq.fubo18.com:443/premiere4/mono.m3u8?token=8508b2743a3c8049b80c341176a8d73bb98107e0-c7-1795772372-1795754372",
+          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/premiere4/mono.m3u8?token=16023e5fe1d681ca5724775c0d6e57dc14c43c2a-67-1795808279-1795790279",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -653,7 +629,7 @@
           "name": "Premiere 5",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://ewvz.fubo18.com:443/premiere5/mono.m3u8?token=fe8744f1b73c61e6a8298ccfac0935faa280db41-75-1795772373-1795754373",
+          "resolvedUrl": "https://ym9yzq.fubo18.com:443/premiere5/mono.m3u8?token=81dd4d343522e94bea1516c193919c05cb6418a2-b-1795808281-1795790281",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -665,7 +641,7 @@
           "name": "Premiere 6",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/premiere6/mono.m3u8?token=1458b7b1fb8965785bc1291c7b36a76c54746c88-1-1795772374-1795754374",
+          "resolvedUrl": "https://b2ZmaWNpYWw.fubo18.com:443/premiere6/mono.m3u8?token=1fdef095f3f824367d8a8636398d07b3849c895a-12-1795808282-1795790282",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -677,7 +653,7 @@
           "name": "Premiere 7",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/premiere7/mono.m3u8?token=6fdf6851358fc63a49d6b0acadc6c168f20afcc8-e9-1795772374-1795754374",
+          "resolvedUrl": "https://am91cm5leq.fubo18.com:443/premiere7/mono.m3u8?token=bfae5573b35100ebaab2579900c9c1f4a71db2a6-48-1795808283-1795790283",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -689,7 +665,7 @@
           "name": "Sportv",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/sportv/mono.m3u8?token=ceeb09ec11ba04c87ce119023eae2fa5423dc7af-28-1795772375-1795754375",
+          "resolvedUrl": "https://bmf0aw9u.fubo18.com:443/sportv/mono.m3u8?token=c2962f1142192a1f63bb617b72ef0df06d5dae05-26-1795808284-1795790284",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -701,7 +677,7 @@
           "name": "Sportv 2",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://dglvz29s.fubo18.com:443/sportv2/mono.m3u8?token=dd53b7eb0a8f37a342cc84aafd15e3753b84b051-f3-1795772376-1795754376",
+          "resolvedUrl": "https://a2lja3m.fubo18.com:443/sportv2/mono.m3u8?token=77e19032015ac56f400717ab5ad233689ed1add3-7-1795808285-1795790285",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -713,7 +689,7 @@
           "name": "Sportv 3",
           "enabled": true,
           "sourceActive": true,
-          "resolvedUrl": "https://yxdlc29tzq.fubo18.com:443/sportv3/mono.m3u8?token=6c9563a71b6a5d728593a14f56652606121e2186-db-1795772376-1795754376",
+          "resolvedUrl": "https://bgvnzw5k.fubo18.com:443/sportv3/mono.m3u8?token=5981bd86185a27548a8f8d00cc62bb87eec78fc3-87-1795808286-1795790286",
           "check": {
             "ok": true,
             "detail": "HTTP 200 ct='application/vnd.apple.mpegurl' m3u8=sí"
@@ -725,7 +701,7 @@
   },
   "tvlibre": {
     "source": "https://tvlibre.st/agenda/",
-    "fetchedAt": "2026-11-27T04:54:37.932140+00:00",
+    "fetchedAt": "2026-11-27T14:53:08.134648+00:00",
     "date": "Agenda - Jueves 26 de Noviembre de 2026",
     "count": 4,
     "events": [
